@@ -1,0 +1,209 @@
+.logo-image {
+  margin-left: .5rem;
+  margin-right: .5rem;
+  width: 5%;
+}
+
+.navbar {
+  background-color: #006d77;
+}
+
+.title-body {
+  text-align: right;
+  padding: 7% 15%;
+  color: #edf6f9;
+}
+
+.title-image {
+  width: 400px;
+  margin: 0rem 1rem;
+}
+
+.main {
+  background: url('../images/drip_bg.png') no-repeat fixed center;
+  background-color: #83c5be;
+  background-size: cover;
+}
+
+.big-name {
+  font-size: 5rem;
+  padding-bottom: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+.hi-im {
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+
+/* ABOUT ME */
+
+#about-me {
+  padding: 7% 15%;
+  background-color: #83c5be;
+}
+
+.skills-card {
+  margin: 0rem 5rem;
+  color: #006d77;
+  text-align: justify;
+  padding: 3rem 5rem;
+}
+
+.about-me-heading {
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: #ffddd2;
+  padding: 0px 0px;
+  border-radius: 50px;
+  height: 10px;
+}
+
+.skill-info {
+  margin: 15px 0px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.ps {
+  width: 95%;
+  background-color: #e29578;
+  border-radius: 50px;
+  height: 10px;
+  padding: 0px 0px;
+}
+
+.figma {
+  width: 95%;
+  background-color: #e29578;
+  border-radius: 50px;
+  height: 10px;
+  padding: 0px 0px;
+}
+
+.excel {
+  width: 80%;
+  background-color: #e29578;
+  border-radius: 50px;
+  height: 10px;
+  padding: 0px 0px;
+}
+
+.html-css {
+  width: 95%;
+  background-color: #e29578;
+  border-radius: 50px;
+  height: 10px;
+  padding: 0px 0px;
+}
+
+.js {
+  width: 50%;
+  background-color: #e29578;
+  border-radius: 50px;
+  height: 10px;
+  padding: 0px 0px;
+}
+
+.btn {
+  margin: 50px 150px;
+}
+
+.resume {
+  margin-right: 10px;
+}
+
+
+
+/* MY WORK */
+#my-work {
+  padding: 5% 5%;
+  padding-bottom: 10%;
+  background-color: #006d77;
+}
+
+.my-work {
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  padding: 5% 15%;
+  text-align: center;
+  color: #edf6f9;
+}
+
+.project-card {
+  padding: 2.5rem 2.5rem;
+}
+
+a{
+  color: inherit;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e29578;
+}
+
+.project-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  padding-top: 1.5rem;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+
+/* CONTACT ME */
+#contact {
+  padding: 10% 5%;
+  background-color: #e29578;
+}
+
+.contact-me {
+  color: #edf6f9;
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 3%;
+  font-size: 2.5rem;
+}
+
+.icon {
+  padding: 0% 5%;
+  color: #edf6f9;
+}
+
+.icon:hover {
+  color: #83c5be;
+}
+
+.contact-text {
+  color: #edf6f9;
+  font-size: 150%;
+}
+
+.phone:hover {
+  color: #83c5be;
+}
+
+.email:hover {
+  color: #83c5be;
+}

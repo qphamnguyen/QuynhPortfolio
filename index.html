@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/cb48d6a257.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--CSS stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Quynh-My Pham</title>
+</head>
+
+<body>
+  <section id="title">
+    <div>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <img class="logo-image" src="images/q_logo.svg" alt="q-logo">
+        <!--
+        <a class="navbar-brand" style="font-weight:bold;" href="#">Quynh</a>
+        -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTD2" aria-controls="navbarTD2" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTD2">
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item">
+              <a href="#about-me" class="nav-link">About Me</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#my-work" class="nav-link">Past Projects</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#contact" class="nav-link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!--Main Title -->
+    <center class="row title-body main">
+      <div class="col-lg-6">
+        <p class="hi-im">Hi, I'm</p>
+        <h1 class="big-name">Quynh-My Pham!</h1>
+        <p class="i-am"> I am a prospective UI/UX designer studying
+          <br> Cognitive Science at UCSD.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <img class="title-image" src="images/aleksander_vlad_unsplash.png" alt="laptop">
+      </div>
+    </center>
+  </section>
+
+  <!-- ABOUT ME -->
+  <section id="about-me">
+    <div class="row">
+      <div class="about-me-column">
+        <div class="card skills-card">
+          <!-- Card Starts Here -->
+          <div class="card-title">
+            <h3 class="about-me-heading">About Me</h3>
+          </div>
+          <div class="card-text">
+            <p>I am currently a Cognitive Science student at the University of
+              California, San Diego, specializing in Design and Interaction. I want to
+              learn more about wireframing and prototyping digital interfaces, and gain more
+              hands-on experience in designing. I am proficient in using Figma and have learned
+              HTML, CSS, Excel, Photoshop and Javascript in the past. I am currently learning Python.
+              <br> In my free time I like to rollerskate for funsies and draw when I feel inspired (and to make my drawing tablet less lonely).
+            </p>
+          </div>
+          <!--SKILLS BARS -->
+          <!--PS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- MY WORK -->
+  <section id="my-work">
+    <h3 class="my-work">Past Projects</h3>
+    <div class="row card-deck">
+      <div class="projects-column col-lg-4 col-md-6">
+        <a href="eNovel/PhamnguyenLab3.html" target="_blank">
+          <div class="card project-card">
+            <img class="card-img-top" src="images/eN_pic.png" alt="eNovel Home Page">
+            <div class="project-title">
+              <h3 class="card-title">eNovel</h3>
+            </div>
+            <div class="card-text">
+              <p> eNovel is a site for all readers, from the casual peruser to the avid bookworm. It
+              aims to make reading a fun community experience, featuring many genres and discussion-based
+              forums that allow readers to connect with each other.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="projects-column col-lg-4 col-md-6">
+        <a href="https://www.figma.com/proto/Lp3zsHRtDDrXAo5A7KDi7n/PhamnguyenLab5?node-id=5%3A4&scaling=contain&page-id=0%3A1&starting-point-node-id=5%3A4&show-proto-sidebar=1" target="_blank">
+          <div class="card project-card">
+            <img class="card-img-top" src="images/snore_tn.PNG" alt="Snore Home Page">
+            <div class="project-title">
+              <h3 class="card-title">Snore</h3>
+            </div>
+            <div class="card-text">
+              <p>An app for college students, Snore gives its users tips for how to maximize their
+              sleep and which places nearby are best, allowing users to submit review-style posts
+              for their peers.</p>
+              <br>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="projects-column col-lg-4 col-md-6">
+        <a href="dice-lab/dice.html" target="_blank">
+          <div class="card project-card">
+            <img class="card-img-top" src="images/dice_tn.png" alt="Let's Roll the Dice!">
+            <div class="project-title">
+              <h3 class="card-title">Dice Roller</h3>
+            </div>
+            <div class="card-text">
+              <p>A fun game that allows users to bet $5 on their choice of dice rolls!</p>
+              <br>
+              <br>
+              <br>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3 class="contact-me">
+      Contact Me
+    </h3>
+    <div class="row contact-text">
+      <div class="phone">
+        <p><i class="icon fas fa-solid fa-phone fa-2x"></i>(408)-550-5814</p>
+      </div>
+      <div class="email">
+        <p><i class="icon fas fa-solid fa-envelope fa-2x"></i>quynhmyphamn@gmail.com</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Script src -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

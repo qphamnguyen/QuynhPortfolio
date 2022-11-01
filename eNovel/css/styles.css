@@ -1,0 +1,170 @@
+
+#title {
+  background-color: #67b99a;
+}
+
+.container-fluid {
+  padding: 3% 15%
+}
+
+h1 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-family:  'Domine', serif;
+  font-size: 1.5;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Domine', serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 15px;
+}
+.nav-link {
+  font-family: 'Domine', serif;
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 5% 5%;
+}
+
+.title-image {
+  transform: rotate(20deg);
+  width: 60%;
+}
+
+.download-icon {
+  padding: 0px 5px;
+}
+
+
+/* Features section */
+
+#features {
+  padding: 9% 15%
+  background-color: white;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.features-heading {
+  font-family: 'Libre Franklin', sans-serif;
+}
+p {
+  font-family: 'Domine', serif;
+  color: #8f8f8f
+}
+.icon{
+  color: #e8a598;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #67b99a;
+}
+
+
+/* Testemonials section */
+
+#testimonials {
+  text-align: center;
+  background-color: #67b99a;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+
+/* Press section */
+
+#press {
+  background-color: #67b99a;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-header {
+  color: black;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-name {
+  font-family: 'Domine', serif;
+  color: #036666;
+}
+
+
+/* Call to Action Section CTA */
+
+#cta {
+  background-color: #67b99a;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+
+/* Footer */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  padding: 20px 10px;
+}
+
+/* Media Query Section */
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
